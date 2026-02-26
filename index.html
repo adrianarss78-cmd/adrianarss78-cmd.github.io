@@ -1,1 +1,166 @@
 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>EduControl - Sistema de Controle de Notas</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f6f9;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #34495e;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 40px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #2c3e50;
+        }
+
+        ul {
+            line-height: 1.8;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .button:hover {
+            background-color: #2980b9;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 768px) {
+            section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>EduControl</h1>
+    <p>Sistema Web de Controle de Notas de Alunos</p>
+</header>
+
+<nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#funcionalidades">Funcionalidades</a>
+    <a href="#usuarios">Usuários</a>
+    <a href="#tecnologias">Tecnologias</a>
+</nav>
+
+<section id="sobre">
+    <div class="card">
+        <h2>Sobre o Projeto</h2>
+        <p>
+            O EduControl é um sistema web desenvolvido para auxiliar escolas
+            no gerenciamento de notas, alunos, professores e turmas.
+            O sistema permite o lançamento de notas e o cálculo automático da média final.
+        </p>
+    </div>
+</section>
+
+<section id="funcionalidades">
+    <div class="card">
+        <h2>Funcionalidades</h2>
+        <ul>
+            <li>✔ Sistema de Login com níveis de acesso</li>
+            <li>✔ Cadastro de alunos</li>
+            <li>✔ Cadastro de professores</li>
+            <li>✔ Cadastro de turmas e matérias</li>
+            <li>✔ Lançamento de notas</li>
+            <li>✔ Cálculo automático da média</li>
+            <li>✔ Relatório de aprovação ou reprovação</li>
+        </ul>
+    </div>
+</section>
+
+<section id="usuarios">
+    <div class="card">
+        <h2>Tipos de Usuários</h2>
+        <ul>
+            <li><strong>Administrador:</strong> Gerencia todo o sistema.</li>
+            <li><strong>Professor:</strong> Lança notas e consulta turmas.</li>
+            <li><strong>Aluno:</strong> Visualiza suas notas.</li>
+        </ul>
+    </div>
+</section>
+
+<section id="tecnologias">
+    <div class="card">
+        <h2>Tecnologias Utilizadas</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript (para melhorias futuras)</li>
+            <li>Banco de Dados MySQL (planejado)</li>
+        </ul>
+
+        <a href="#" class="button">Acessar Sistema</a>
+    </div>
+</section>
+
+<footer>
+    <p>Projeto desenvolvido por Adriana - Curso Técnico em Informática</p>
+</footer>
+
+</body>
+</html>
